@@ -1,0 +1,342 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.nav-bar{
+    height: 60px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #3c5a98;
+    /* background: radial-gradient(#85cdff, #3c5a98); */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.vit-logo{
+    background-image: url("VIT_logo.jpg");
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    color: #ffffff;
+    margin-left: 8px;
+}
+span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-left: 8px;
+}
+.nav-bar p{
+    margin-left: 12px;
+}
+.body-content{
+    text-align: center;
+}
+.body-content h2{
+    font-size: 1.7rem;
+    color: #176cb8;
+}
+.body-content p{
+    color: #212529;
+    text-align: center;
+    font-weight: 600;
+    line-height: 2rem;
+}
+.body-blocks{
+    height: 91px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.block1{
+    height: 91px;
+    width: 22%;
+    border-top: 3px solid rgb(60,141,188);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-radius: .25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.block1-logo{
+    background-image: url("Logo_Student.png");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
+.block1-content{
+    height: 65px;
+    width: 85px;
+    color: #0d6efd;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2rem;
+}
+.button1-logo{
+    height: 35px;
+    width: 35px;
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    font-size: .85rem;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+}
+.block2{
+    height: 91px;
+    width: 22%;
+    border-top: 3px solid #d4ac0d;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-radius: .25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.block2-logo{
+    background-image: url("Logo_Employee.png");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
+.block2-content{
+    height: 65px;
+    width: 85px;
+    color: #d4ac0d;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2rem;
+}
+.button2-logo{
+    height: 35px;
+    width: 35px;
+    background-color: #d4ac0d;
+    color: black;
+    text-align: center;
+    font-size: .85rem;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+}
+.block3{
+    height: 91px;
+    width: 22%;
+    border-top: 3px solid #198754;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-radius: .25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.block3-logo{
+    background-image: url("Logo_Parent.png");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
+.block3-content{
+    height: 65px;
+    width: 85px;
+    color: #198754;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2rem;
+}
+.button3-logo{
+    height: 35px;
+    width: 35px;
+    background-color: #198754;
+    color: white;
+    text-align: center;
+    font-size: .85rem;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+}
+.block4{
+    height: 91px;
+    width: 22%;
+    border-top: 3px solid #0dcaf0;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-radius: .25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.block4-logo{
+    background-image: url("Logo_Alumni.png");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
+.block4-content{
+    height: 65px;
+    width: 85px;
+    color: #0dcaf0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2rem;
+}
+.button4-logo{
+    height: 35px;
+    width: 35px;
+    background-color: #0dcaf0;
+    color: black;
+    text-align: center;
+    font-size: .85rem;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+}
+
+
+.body-mid{
+    display: flex;
+}
+.body-about1{
+    margin: 30px 10px 0px 30px;
+    height: 40px;
+    width: 702px;
+    border-top: 3px solid rgb(108, 36, 5);
+    border-radius: .25rem;
+    background-color: rgba(0,0,0,.03);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.about1-heading{
+    margin-left: 12px;
+    color: rgb(108, 36, 5);
+    font-weight: 600;
+}
+.body-about2{
+    width: 702px;
+    height: 290px;
+    margin-left: 30px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    color: #212529;
+    font-weight: 550;
+    font-size: 13px;
+}
+.lines{
+    display: flex;
+    margin: 15px 35px 15px 35px;
+}
+#line1{
+    margin-top: 10px;
+}
+.about2-lines i{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+hr{
+    width: 95%;
+}
+
+.spotlight-about{
+    margin: 30px 10px 0px 10px;
+    height: 40px;
+    width: 695px;
+    border-top: 3px solid rgb(108, 36, 5);
+    border-radius: .25rem;
+    background-color: rgba(0,0,0,.03);
+    display: flex;
+    align-items: center;
+}
+.spotlight-heading{
+    margin-left: 12px;
+    color: #6c2405;
+    font-weight: 600;
+    display: flex;
+}
+.spotlight-line{
+    width: 695px;
+    height: 58px;
+    margin-left: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    color: #212529;
+    font-weight: 550;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+.lines a{
+    text-decoration: none;
+    color: #212529;
+}
+.lines a:hover{
+    text-decoration: underline;
+}
+.spotlight-line i{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+.body-low{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parentapp{
+    width: 372px;
+    height: 143px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 20px 96px 10px 96px; */
+}
+.parentapp-content{
+    color: #0d6efd;
+    font-weight: 550;
+}
+.googleplay{
+    width: 200px;
+    height: 60px;
+    background-image: url("google-play-badge.png");
+    background-size: cover;
+}
+.appstore{
+    width: 195px;
+    height: 64px;
+    background-image: url("AppStore.svg");
+    background-size: cover;
+}
+.studentapp{
+    width: 372px;
+    height: 143px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px 96px 10px 96px; */
+}
+
+footer{
+    font-size: 12.25px;
+    height: 25px;
+    width: 100%;
+    color: #f8f9fa;
+    background-color: #3c5a98;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
